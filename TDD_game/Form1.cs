@@ -53,6 +53,19 @@ namespace TDD_game
             tb.Enabled = true;
         }
 
+        private void addGamer1_Click(object sender, EventArgs e)
+        {
+            AddGamer(gamerBox1, gamerName1);
+        }
 
+        private void addGamer2_Click(object sender, EventArgs e)
+        {
+            AddGamer(gamerBox2, gamerName2);
+        }
+
+        private void addGamer3_Click(object sender, EventArgs e)
+        {
+            AddGamer(gamerBox3, gamerName3);
+        }
     }
 }

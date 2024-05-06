@@ -89,6 +89,7 @@
             this.addGamer3.TabIndex = 13;
             this.addGamer3.Text = "Добавить игрока";
             this.addGamer3.UseVisualStyleBackColor = true;
+            this.addGamer3.Click += new System.EventHandler(this.addGamer3_Click);
             // 
             // addGamer2
             // 
@@ -98,6 +99,7 @@
             this.addGamer2.TabIndex = 12;
             this.addGamer2.Text = "Добавить игрока";
             this.addGamer2.UseVisualStyleBackColor = true;
+            this.addGamer2.Click += new System.EventHandler(this.addGamer2_Click);
             // 
             // addGamer1
             // 
@@ -107,6 +109,7 @@
             this.addGamer1.TabIndex = 11;
             this.addGamer1.Text = "Добавить игрока";
             this.addGamer1.UseVisualStyleBackColor = true;
+            this.addGamer1.Click += new System.EventHandler(this.addGamer1_Click);
             // 
             // gamerBox2
             // 
