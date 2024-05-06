@@ -256,5 +256,19 @@ namespace TDD_game
             songStart(song1, range1, range2, range3, songPath);
             number = 20;
         }
+        
+        public void addPoint(Button gamerRange)
+        {
+            int tmp = Convert.ToInt32(gamerRange.Text);
+            tmp += 1;
+            gamerRange.Text = tmp.ToString();
+        }
+
+        public void songDetected(Button song, string text)
+        {
+            song.Text = text;
+            song.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            song.Enabled = false;
+        }
     }
 }
