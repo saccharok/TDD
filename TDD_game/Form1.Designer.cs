@@ -80,6 +80,7 @@
             this.startButton.TabIndex = 14;
             this.startButton.Text = "НАЧАТЬ ИГРУ";
             this.startButton.UseVisualStyleBackColor = true;
+            this.startButton.Click += new System.EventHandler(this.startButton_Click);
             // 
             // addGamer3
             // 

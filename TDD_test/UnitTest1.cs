@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Media;
 using System.Windows.Forms;
 using TDD_game;
 
@@ -57,6 +58,33 @@ namespace TDD_test
             Assert.IsFalse(c1.Enabled);
             Assert.IsFalse(c2.Enabled);
             Assert.IsFalse(c3.Enabled);
+        }
+    }
+
+    [TestClass]
+    public class SongPlayTest
+    {
+        [TestMethod]
+        public void SongStartTest()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            var songButton = new Button();
+            var gamer1Button = new Button();
+            var gamer2Button = new Button();
+            var gamer3Button = new Button();
+            string path = "C:\\Users\\sonya\\source\\repos\\lr3_testingPO\\lr3_testingPO\\bin\\Debug\\audio\\1.wav"; //C:\Users\sonya\source\repos\lr3_testingPO\lr3_testingPO\bin\Debug\audio
+            var player = new SoundPlayer();
+            player.SoundLocation = path;
+
+            // Act
+            form1.songStart(songButton, gamer1Button, gamer2Button, gamer3Button, path);
+
+            // Assert
+            Assert.AreEqual(path, player.SoundLocation);
+            Assert.IsTrue(gamer1Button.Enabled);
+            Assert.IsTrue(gamer2Button.Enabled);
+            Assert.IsTrue(gamer3Button.Enabled);
         }
     }
 }

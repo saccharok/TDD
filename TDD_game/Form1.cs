@@ -100,7 +100,13 @@ namespace TDD_game
             song18.Visible = true;
             song19.Visible = true;
             song20.Visible = true;
-
         }
+
+        private void startButton_Click(object sender, EventArgs e)
+        {
+            startGame(labelName1, labelName2, labelName3, addGamer1, addGamer2, addGamer3, startButton, gamerName1, gamerName2, gamerName3);
+        }
+
+
     }
 }
