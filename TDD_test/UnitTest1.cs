@@ -131,4 +131,328 @@ namespace TDD_test
             Assert.AreEqual(songButton.Font, f);
         }
     }
+
+    [TestClass]
+    public class ReturnSongButtonTest
+    {
+        [TestMethod]
+        public void ReturnSong1()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 1;
+            var VaitingButton = form1.song1;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong2()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 2;
+            var VaitingButton = form1.song2;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong3()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 3;
+            var VaitingButton = form1.song3;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong4()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 4;
+            var VaitingButton = form1.song4;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong5()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 5;
+            var VaitingButton = form1.song5;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong6()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 6;
+            var VaitingButton = form1.song6;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong7()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 7;
+            var VaitingButton = form1.song7;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong8()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 8;
+            var VaitingButton = form1.song8;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong9()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 9;
+            var VaitingButton = form1.song9;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong10()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 10;
+            var VaitingButton = form1.song10;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong11()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 11;
+            var VaitingButton = form1.song11;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong12()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 12;
+            var VaitingButton = form1.song12;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong13()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 13;
+            var VaitingButton = form1.song13;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong14()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 14;
+            var VaitingButton = form1.song14;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong15()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 15;
+            var VaitingButton = form1.song15;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong16()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 16;
+            var VaitingButton = form1.song16;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong17()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 17;
+            var VaitingButton = form1.song17;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong18()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 18;
+            var VaitingButton = form1.song18;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong19()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 19;
+            var VaitingButton = form1.song19;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+
+        [TestMethod]
+        public void ReturnSong20()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            int value = 20;
+            var VaitingButton = form1.song20;
+            var testButton = new Button();
+
+            // Act
+            testButton = form1.returnSongButton(value);
+
+            // Assert
+            Assert.AreEqual(testButton, VaitingButton);
+        }
+    }
 }
