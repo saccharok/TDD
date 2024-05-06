@@ -46,7 +46,13 @@ namespace TDD_game
             range2.Enabled = false;
             range3.Enabled = false;
         }
-        
+
+        public void AddGamer(GroupBox gb, TextBox tb)
+        {
+            gb.Visible = true;
+            tb.Enabled = true;
+        }
+
 
     }
 }
