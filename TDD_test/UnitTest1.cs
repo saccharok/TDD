@@ -87,4 +87,47 @@ namespace TDD_test
             Assert.IsTrue(gamer3Button.Enabled);
         }
     }
+
+    [TestClass]
+    public class AddPointsTest
+    {
+        [TestMethod]
+        public void AddPointText()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string input = "5";
+            string expectedOutput = "6";
+            var rangeButton = new Button();
+            rangeButton.Text = input;
+
+            // Act
+            form1.addPoint(rangeButton);
+
+            // Assert
+            Assert.AreEqual(rangeButton.Text, expectedOutput);
+        }
+    }
+
+    [TestClass]
+    public class SongDetectedButtonTest
+    {
+        [TestMethod]
+        public void SongDetectedTest()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            var songButton = new Button();
+            var text = "Check";
+            Font f = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+
+            // Act
+            form1.songDetected(songButton, text);
+
+            // Assert
+            Assert.IsFalse(songButton.Enabled);
+            Assert.AreEqual(songButton.Text, text);
+            Assert.AreEqual(songButton.Font, f);
+        }
+    }
 }
