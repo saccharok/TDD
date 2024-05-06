@@ -1,4 +1,10 @@
-﻿using System;
+﻿// This is a personal academic project. Dear PVS-Studio, please check it.
+
+// PVS-Studio Static Code Analyzer for C, C++, C#, and Java: https://pvs-studio.com
+
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -381,7 +387,7 @@ namespace TDD_game
 
         private void range3_Click_1(object sender, EventArgs e)
         {
-            addPoint(range2);
+            addPoint(range3);
             Button song = returnSongButton(number);
             songDetected(song, returnSongName(number));
             range1.Enabled = false;
