@@ -265,6 +265,7 @@
             this.song5.TabIndex = 47;
             this.song5.Text = "5";
             this.song5.UseVisualStyleBackColor = true;
+            this.song5.Click += new System.EventHandler(this.song5_Click);
             // 
             // song4
             // 
@@ -275,6 +276,7 @@
             this.song4.TabIndex = 46;
             this.song4.Text = "4";
             this.song4.UseVisualStyleBackColor = true;
+            this.song4.Click += new System.EventHandler(this.song4_Click);
             // 
             // song3
             // 
@@ -285,6 +287,7 @@
             this.song3.TabIndex = 45;
             this.song3.Text = "3";
             this.song3.UseVisualStyleBackColor = true;
+            this.song3.Click += new System.EventHandler(this.song3_Click);
             // 
             // song2
             // 
@@ -295,6 +298,7 @@
             this.song2.TabIndex = 44;
             this.song2.Text = "2";
             this.song2.UseVisualStyleBackColor = true;
+            this.song2.Click += new System.EventHandler(this.song2_Click);
             // 
             // song1
             // 
@@ -305,6 +309,7 @@
             this.song1.TabIndex = 43;
             this.song1.Text = "1";
             this.song1.UseVisualStyleBackColor = true;
+            this.song1.Click += new System.EventHandler(this.song1_Click);
             // 
             // song10
             // 
@@ -315,6 +320,7 @@
             this.song10.TabIndex = 42;
             this.song10.Text = "10";
             this.song10.UseVisualStyleBackColor = true;
+            this.song10.Click += new System.EventHandler(this.song10_Click);
             // 
             // song9
             // 
@@ -325,6 +331,7 @@
             this.song9.TabIndex = 41;
             this.song9.Text = "9";
             this.song9.UseVisualStyleBackColor = true;
+            this.song9.Click += new System.EventHandler(this.song9_Click);
             // 
             // song8
             // 
@@ -335,6 +342,7 @@
             this.song8.TabIndex = 40;
             this.song8.Text = "8";
             this.song8.UseVisualStyleBackColor = true;
+            this.song8.Click += new System.EventHandler(this.song8_Click);
             // 
             // song7
             // 
@@ -345,6 +353,7 @@
             this.song7.TabIndex = 39;
             this.song7.Text = "7";
             this.song7.UseVisualStyleBackColor = true;
+            this.song7.Click += new System.EventHandler(this.song7_Click);
             // 
             // song6
             // 
@@ -355,6 +364,7 @@
             this.song6.TabIndex = 38;
             this.song6.Text = "6";
             this.song6.UseVisualStyleBackColor = true;
+            this.song6.Click += new System.EventHandler(this.song6_Click);
             // 
             // song15
             // 
@@ -365,6 +375,7 @@
             this.song15.TabIndex = 37;
             this.song15.Text = "15";
             this.song15.UseVisualStyleBackColor = true;
+            this.song15.Click += new System.EventHandler(this.song15_Click);
             // 
             // song14
             // 
@@ -375,6 +386,7 @@
             this.song14.TabIndex = 36;
             this.song14.Text = "14";
             this.song14.UseVisualStyleBackColor = true;
+            this.song14.Click += new System.EventHandler(this.song14_Click);
             // 
             // song13
             // 
@@ -385,6 +397,7 @@
             this.song13.TabIndex = 35;
             this.song13.Text = "13";
             this.song13.UseVisualStyleBackColor = true;
+            this.song13.Click += new System.EventHandler(this.song13_Click);
             // 
             // song12
             // 
@@ -395,6 +408,7 @@
             this.song12.TabIndex = 34;
             this.song12.Text = "12";
             this.song12.UseVisualStyleBackColor = true;
+            this.song12.Click += new System.EventHandler(this.song12_Click);
             // 
             // song11
             // 
@@ -405,6 +419,7 @@
             this.song11.TabIndex = 33;
             this.song11.Text = "11";
             this.song11.UseVisualStyleBackColor = true;
+            this.song11.Click += new System.EventHandler(this.song11_Click);
             // 
             // song20
             // 
@@ -415,6 +430,7 @@
             this.song20.TabIndex = 32;
             this.song20.Text = "20";
             this.song20.UseVisualStyleBackColor = true;
+            this.song20.Click += new System.EventHandler(this.song20_Click);
             // 
             // song19
             // 
@@ -425,6 +441,7 @@
             this.song19.TabIndex = 31;
             this.song19.Text = "19";
             this.song19.UseVisualStyleBackColor = true;
+            this.song19.Click += new System.EventHandler(this.song19_Click);
             // 
             // song18
             // 
@@ -435,6 +452,7 @@
             this.song18.TabIndex = 30;
             this.song18.Text = "18";
             this.song18.UseVisualStyleBackColor = true;
+            this.song18.Click += new System.EventHandler(this.song18_Click);
             // 
             // song17
             // 
@@ -445,6 +463,7 @@
             this.song17.TabIndex = 29;
             this.song17.Text = "17";
             this.song17.UseVisualStyleBackColor = true;
+            this.song17.Click += new System.EventHandler(this.song17_Click);
             // 
             // song16
             // 
@@ -455,6 +474,7 @@
             this.song16.TabIndex = 28;
             this.song16.Text = "16";
             this.song16.UseVisualStyleBackColor = true;
+            this.song16.Click += new System.EventHandler(this.song16_Click);
             // 
             // Form1
             // 
