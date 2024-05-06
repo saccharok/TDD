@@ -68,6 +68,39 @@ namespace TDD_game
             AddGamer(gamerBox3, gamerName3);
         }
 
+        public void startGame(Label l1, Label l2, Label l3, Button b1, Button b2, Button b3, Button start, TextBox c1, TextBox c2, TextBox c3)
+        {
+            l1.Visible = false;
+            l2.Visible = false;
+            l3.Visible = false;
+            b1.Visible = false;
+            b2.Visible = false;
+            b3.Visible = false;
+            start.Visible = false;
+            c1.Enabled = false;
+            c2.Enabled = false;
+            c3.Enabled = false;
+            song1.Visible = true;
+            song2.Visible = true;
+            song3.Visible = true;
+            song4.Visible = true;
+            song5.Visible = true;
+            song6.Visible = true;
+            song7.Visible = true;
+            song8.Visible = true;
+            song9.Visible = true;
+            song10.Visible = true;
+            song11.Visible = true;
+            song12.Visible = true;
+            song13.Visible = true;
+            song14.Visible = true;
+            song15.Visible = true;
+            song16.Visible = true;
+            song17.Visible = true;
+            song18.Visible = true;
+            song19.Visible = true;
+            song20.Visible = true;
 
+        }
     }
 }
