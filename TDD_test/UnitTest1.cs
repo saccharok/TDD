@@ -455,4 +455,328 @@ namespace TDD_test
             Assert.AreEqual(testButton, VaitingButton);
         }
     }
+
+    [TestClass]
+    public class ReturnSongNameTest
+    {
+        [TestMethod]
+        public void returnName1()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "The Hatters - Просто проваливай";
+            int num = 1;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName2()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "5sta Family - Моя мелодия";
+            int num = 2;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName3()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Eminem - The Real Slim Shady";
+            int num = 3;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName4()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "МУККА - Мертвые цветы";
+            int num = 4;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName5()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Muse - Butterfies And Hurricanes";
+            int num = 5;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName6()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "TRITIA, Асия - Жить тобой";
+            int num = 6;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName7()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "One Direction - What Makes You Beautiful";
+            int num = 7;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName8()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Palina - Я пойму";
+            int num = 8;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName9()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Rob Zombie - Dragula";
+            int num = 9;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName10()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Бумбокс - Та4то";
+            int num = 10;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName11()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Джинсы Тарковского - Атлантида";
+            int num = 11;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName12()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Градусы - Запишу свое сердце на секцию плавания";
+            int num = 12;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName13()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Дора - Младшая сестра";
+            int num = 13;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName14()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Жанна Фриске - Ла-ла-ла";
+            int num = 14;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName15()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Комната Культуры - Поезда";
+            int num = 15;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName16()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Максим Свобода - Дурак";
+            int num = 16;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName17()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "просто Лера - Инопланетяне";
+            int num = 17;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName18()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Юлия Савичева - Как твои дела";
+            int num = 18;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName19()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "Сметана Band - Каждый твой";
+            int num = 19;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+
+        [TestMethod]
+        public void returnName20()
+        {
+            Form1 form1 = new Form1();
+            // Arrange
+            string value = "СЛАВА, Стас Пьеха - Я и Ты";
+            int num = 20;
+            string testValue;
+
+            // Act
+            testValue = form1.returnSongName(num);
+
+            // Assert
+            Assert.AreEqual(value, testValue);
+        }
+    }
 }
