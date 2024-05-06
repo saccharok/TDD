@@ -314,6 +314,49 @@ namespace TDD_game
             else return song20;
         }
 
+        public string returnSongName(int number)
+        {
+            if (number == 1)
+                return "The Hatters - Просто проваливай";
+            else if (number == 2)
+                return "5sta Family - Моя мелодия";
+            else if (number == 3)
+                return "Eminem - The Real Slim Shady";
+            else if (number == 4)
+                return "МУККА - Мертвые цветы";
+            else if (number == 5)
+                return "Muse - Butterfies And Hurricanes";
+            else if (number == 6)
+                return "TRITIA, Асия - Жить тобой";
+            else if (number == 7)
+                return "One Direction - What Makes You Beautiful";
+            else if (number == 8)
+                return "Palina - Я пойму";
+            else if (number == 9)
+                return "Rob Zombie - Dragula";
+            else if (number == 10)
+                return "Бумбокс - Та4то";
+            else if (number == 11)
+                return "Джинсы Тарковского - Атлантида";
+            else if (number == 12)
+                return "Градусы - Запишу свое сердце на секцию плавания";
+            else if (number == 13)
+                return "Дора - Младшая сестра";
+            else if (number == 14)
+                return "Жанна Фриске - Ла-ла-ла";
+            else if (number == 15)
+                return "Комната Культуры - Поезда";
+            else if (number == 16)
+                return "Максим Свобода - Дурак";
+            else if (number == 17)
+                return "просто Лера - Инопланетяне";
+            else if (number == 18)
+                return "Юлия Савичева - Как твои дела";
+            else if (number == 19)
+                return "Сметана Band - Каждый твой";
+            else return "СЛАВА, Стас Пьеха - Я и Ты";
+        }
+
 
     }
 }
