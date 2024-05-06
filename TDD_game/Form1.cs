@@ -270,5 +270,50 @@ namespace TDD_game
             song.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             song.Enabled = false;
         }
+
+        public Button returnSongButton(int number)
+        {
+            if (number == 1)
+                return song1;
+            else if (number == 2)
+                return song2;
+            else if (number == 3)
+                return song3;
+            else if (number == 4)
+                return song4;
+            else if (number == 5)
+                return song5;
+            else if (number == 6)
+                return song6;
+            else if (number == 7)
+                return song7;
+            else if (number == 8)
+                return song8;
+            else if (number == 9)
+                return song9;
+            else if (number == 10)
+                return song10;
+            else if (number == 11)
+                return song11;
+            else if (number == 12)
+                return song12;
+            else if (number == 13)
+                return song13;
+            else if (number == 14)
+                return song14;
+            else if (number == 15)
+                return song15;
+            else if (number == 16)
+                return song16;
+            else if (number == 17)
+                return song17;
+            else if (number == 18)
+                return song18;
+            else if (number == 19)
+                return song19;
+            else return song20;
+        }
+
+
     }
 }
