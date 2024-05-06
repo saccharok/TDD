@@ -357,6 +357,37 @@ namespace TDD_game
             else return "СЛАВА, Стас Пьеха - Я и Ты";
         }
 
+        private void range1_Click(object sender, EventArgs e)
+        {
+            addPoint(range1);
+            Button song = returnSongButton(number);
+            songDetected(song, returnSongName(number));
+            range1.Enabled = false;
+            range2.Enabled = false;
+            range3.Enabled = false;
+            player.Stop();
+        }
 
+        private void range2_Click(object sender, EventArgs e)
+        {
+            addPoint(range2);
+            Button song = returnSongButton(number);
+            songDetected(song, returnSongName(number));
+            range1.Enabled = false;
+            range2.Enabled = false;
+            range3.Enabled = false;
+            player.Stop();
+        }
+
+        private void range3_Click(object sender, EventArgs e)
+        {
+            addPoint(range3);
+            Button song = returnSongButton(number);
+            songDetected(song, returnSongName(number));
+            range1.Enabled = false;
+            range2.Enabled = false;
+            range3.Enabled = false;
+            player.Stop();
+        }
     }
 }
