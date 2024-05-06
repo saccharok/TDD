@@ -132,6 +132,7 @@
             this.range2.TabIndex = 9;
             this.range2.Text = "0";
             this.range2.UseVisualStyleBackColor = true;
+            this.range2.Click += new System.EventHandler(this.range2_Click_1);
             // 
             // gamerRating2
             // 
@@ -180,6 +181,7 @@
             this.range3.TabIndex = 10;
             this.range3.Text = "0";
             this.range3.UseVisualStyleBackColor = true;
+            this.range3.Click += new System.EventHandler(this.range3_Click_1);
             // 
             // gamerRating3
             // 
@@ -228,6 +230,7 @@
             this.range1.TabIndex = 8;
             this.range1.Text = "0";
             this.range1.UseVisualStyleBackColor = true;
+            this.range1.Click += new System.EventHandler(this.range1_Click_1);
             // 
             // gamerRating1
             // 
@@ -509,7 +512,8 @@
             this.Controls.Add(this.gamerBox3);
             this.Controls.Add(this.gamerBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Угадай мелодию";
             this.gamerBox2.ResumeLayout(false);
             this.gamerBox2.PerformLayout();
             this.gamerBox3.ResumeLayout(false);
